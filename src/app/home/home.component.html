@@ -1,9 +1,12 @@
 <header>
     <nav class="navbar navbar-expand-lg bg-light navbar-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="inicio">AEROSENA
-                <img src="assets/img/img6.png" alt="logo" style="max-width: 30px;">
-            </a>
+            <strong>
+                <a class="navbar-brand" href="inicio">AEROSENA
+                    <img src="assets/img/img6.png" alt="logo" style="max-width: 30px;">
+                </a>
+
+            </strong>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -43,22 +46,22 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="inicio">Inicio</a>
+                    <a class="nav-link " aria-current="page" href="inicio">Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="reserva">Vuelos</a>
+                    <a class="nav-link active" aria-current="page" href="reserva">Reservar Vuelos</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="inicio">Ofertas</a>
                 </li>
 
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    <a class="nav-link dropdown-toggle active" href="login" role="button" data-bs-toggle="dropdown"
                         aria-expanded="false">
-                        Planes y Reservas
+                        Tickets - Reservas
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="ticket">Planes</a></li>
+                        <li><a class="dropdown-item" href="ticket">Tickets</a></li>
                         <li><a class="dropdown-item" href="reserva">Reservas</a></li>
                         <li>
                             <hr class="dropdown-divider">
@@ -78,5 +81,8 @@
     </div>
 </nav>
 <main class="container-fluid">
+    <div class="background">
+        
+    </div>
     <router-outlet></router-outlet>
 </main>

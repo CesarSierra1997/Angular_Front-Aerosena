@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Renderer2 } from '@angular/core';
 
 
 @Component({
@@ -13,8 +13,7 @@ export class LoginComponent {
   onLogin() {
     // Aquí puedes realizar la lógica de autenticación, como enviar los datos al servidor
     // y verificar las credenciales. Por ahora, simplemente muestra los datos en la consola.
-    console.log('Usuario:', this.username);
-    console.log('Contraseña:', this.password);
+    alert('Usuario:'+this.username+'\nContraseña:'+ this.password);
   }
 
 }
